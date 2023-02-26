@@ -3,8 +3,9 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: dogboard_web_1
-      APP_PORT: 9178
+      PROXY_AUTH_ADD: "false"
+      # APP_HOST: dogboard_web_1
+      # APP_PORT: 9178
 
   web:
     image: spencerdupre/dogboard:v0.0.1
