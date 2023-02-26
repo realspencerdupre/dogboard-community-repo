@@ -1,0 +1,26 @@
+manifestVersion: 1.1
+id: dogboard
+category: Media
+name: Dogboard
+version: "0.0.1"
+tagline: A soundboard for podcasters
+description: >-
+  Dogboard is a simple soundboard for playing jingles during podcasting.
+developer: Spencer Dupre
+website: https://github.com/realspencerdupre/dogboard
+dependencies: []
+repo: https://github.com/realspencerdupre/dogboard
+support: https://github.com/realspencerdupre/dogboard/issues
+port: 9178
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+releaseNotes: >
+  - Initial release
+submitter: Spencer Dupre
+submission: https://github.com/getumbrel/umbrel-apps/pull/28
