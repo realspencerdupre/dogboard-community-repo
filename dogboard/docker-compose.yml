@@ -3,19 +3,17 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      PROXY_AUTH_ADD: "false"
-      # APP_HOST: dogboard_web_1
-      # APP_PORT: 9178
+      # PROXY_AUTH_ADD: "false"
+      APP_HOST: dogboard_web_1
+      APP_PORT: 9178
 
   web:
-    image: spencerdupre/dogboard:v0.0.1
+    image: spencerdupre/dogboard:v0.0.2
     restart: on-failure
     stop_grace_period: 1m
     depends_on:
       - redis
     devices:
       - "/dev/snd"
-    ports:
-      - "9178:8000"
   redis:
     image: "redis:alpine"

@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: dogboard
 category: Media
 name: Dogboard
-version: "0.0.1"
+version: "0.0.2"
 tagline: A soundboard for podcasters
 icon: https://github.com/realspencerdupre/dogboard/blob/main/mainapp/static/mainapp/img/icon.png
 description: >-
@@ -14,9 +14,9 @@ repo: https://github.com/realspencerdupre/dogboard
 support: https://github.com/realspencerdupre/dogboard/issues
 port: 9178
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
