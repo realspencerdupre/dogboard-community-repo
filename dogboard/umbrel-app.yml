@@ -2,8 +2,9 @@ manifestVersion: 1
 id: dogboard-server
 name: Dogboard
 tagline: A soundboard for podcasters
-category: Development
-version: "0.0.3"
+category: Media
+icon: https://github.com/realspencerdupre/dogboard/blob/main/mainapp/static/mainapp/img/umbrel-icon.png?raw=true
+version: "0.0.2"
 port: 9178
 description: >-
   Dogboard is a simple soundboard for playing jingles during podcasting.
