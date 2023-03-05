@@ -4,7 +4,7 @@ category: Media
 name: Dogboard
 version: "0.0.2"
 tagline: A soundboard for podcasters
-icon: https://github.com/realspencerdupre/dogboard/blob/main/mainapp/static/mainapp/img/icon.png
+icon: https://raw.githubusercontent.com/realspencerdupre/dogboard/main/mainapp/static/mainapp/img/icon.png
 description: >-
   Dogboard is a simple soundboard for playing jingles during podcasting.
 developer: Spencer Dupre
