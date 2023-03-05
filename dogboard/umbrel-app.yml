@@ -2,7 +2,7 @@ manifestVersion: 1
 id: dogboard
 name: Dogboard
 tagline: A soundboard for podcasters
-category: Media
+category: Development
 version: "0.0.3"
 port: 9178
 description: >-
