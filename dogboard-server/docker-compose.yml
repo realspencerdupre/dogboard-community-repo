@@ -11,6 +11,8 @@ services:
     image: spencerdupre/dogboard:v0.0.2
     restart: on-failure
     stop_grace_period: 1m
+    volumes:
+      - ./data:/app/media
     depends_on:
       - redis
     devices:
